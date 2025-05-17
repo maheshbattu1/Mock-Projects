@@ -1,0 +1,79 @@
+/* Custom slider styles */
+.slick-slider {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-slide {
+  transition: all 0.5s ease;
+  opacity: 0.7;
+  padding: 10px;
+  transform: scale(0.9);
+}
+
+.slick-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slick-current {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.property-slider .slick-track {
+  display: flex !important;
+}
+
+.property-slider .slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+
+.property-slider .slick-slide > div {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+/* Customize dots */
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #3b82f6; /* Tailwind blue-500 */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #1d4ed8; /* Tailwind blue-700 */
+}
+
+/* Auto-slide animation smoothing */
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+  transition: transform 0.5s ease;
+}
+
+/* Create a continuous effect */
+@keyframes autoSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Hover pause behavior - pause animation on hover */
+.property-slider:hover .slick-track {
+  animation-play-state: paused;
+}
+
+/* Focus styles for accessibility */
+.slick-slide:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}

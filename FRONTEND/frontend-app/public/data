@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Family Home",
+    "location": "Los Angeles, CA",
+    "price": "$1,200,000",
+    "image": "/public/home1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Luxury Villa",
+    "location": "Miami, FL",
+    "price": "$2,500,000",
+    "image": "/public/home2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Cozy Cottage",
+    "location": "Austin, TX",
+    "price": "$850,000",
+    "image": "/public/home3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Downtown Apartment",
+    "location": "New York, NY",
+    "price": "$1,800,000",
+    "image": "/public/home4.jpg"
+  }
+]

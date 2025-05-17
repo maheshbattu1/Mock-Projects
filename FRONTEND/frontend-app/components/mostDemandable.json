@@ -1,0 +1,144 @@
+
+[
+    {
+      "id": 1,
+      "title": "Modern Apartment in Downtown",
+      "location": "New York, NY",
+      "price": "$2,500/month",
+      "image": "https://example.com/images/apartment1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Cozy Studio near Central Park",
+      "location": "New York, NY",
+      "price": "$1,800/month",
+      "image": "https://example.com/images/apartment2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Spacious Villa with Garden",
+      "location": "Los Angeles, CA",
+      "price": "$4,500/month",
+      "image": "https://example.com/images/villa1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Luxury Condo with Sea View",
+      "location": "Miami, FL",
+      "price": "$3,200/month",
+      "image": "https://example.com/images/condo1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Affordable 1BHK Apartment",
+      "location": "Chicago, IL",
+      "price": "$1,200/month",
+      "image": "https://example.com/images/apartment3.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Penthouse in Financial District",
+      "location": "San Francisco, CA",
+      "price": "$5,800/month",
+      "image": "https://example.com/images/penthouse1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Suburban Family Home",
+      "location": "Dallas, TX",
+      "price": "$2,000/month",
+      "image": "https://example.com/images/home1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Beach House with Private Pool",
+      "location": "San Diego, CA",
+      "price": "$4,900/month",
+      "image": "https://example.com/images/beachhouse1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Loft in Arts District",
+      "location": "Austin, TX",
+      "price": "$2,600/month",
+      "image": "https://example.com/images/loft1.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Downtown Studio Apartment",
+      "location": "Seattle, WA",
+      "price": "$1,950/month",
+      "image": "https://example.com/images/studio1.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Elegant Bungalow with Backyard",
+      "location": "Portland, OR",
+      "price": "$2,300/month",
+      "image": "https://example.com/images/bungalow1.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Modern Townhouse",
+      "location": "Denver, CO",
+      "price": "$2,700/month",
+      "image": "https://example.com/images/townhouse1.jpg"
+    },
+    {
+      "id": 13,
+      "title": "High-rise Apartment with City View",
+      "location": "Atlanta, GA",
+      "price": "$3,100/month",
+      "image": "https://example.com/images/highrise1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Farmhouse in Countryside",
+      "location": "Nashville, TN",
+      "price": "$1,700/month",
+      "image": "https://example.com/images/farmhouse1.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Classic Colonial Home",
+      "location": "Boston, MA",
+      "price": "$3,000/month",
+      "image": "https://example.com/images/colonial1.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Duplex Near University",
+      "location": "Ann Arbor, MI",
+      "price": "$1,900/month",
+      "image": "https://example.com/images/duplex1.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Lakeview Apartment",
+      "location": "Minneapolis, MN",
+      "price": "$2,400/month",
+      "image": "https://example.com/images/lakeview1.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Rustic Cabin Retreat",
+      "location": "Asheville, NC",
+      "price": "$1,600/month",
+      "image": "https://example.com/images/cabin1.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Contemporary Flat in Tech Park",
+      "location": "San Jose, CA",
+      "price": "$3,300/month",
+      "image": "https://example.com/images/flat1.jpg"
+    },
+    {
+      "id": 20,
+      "title": "City Center Condo",
+      "location": "Philadelphia, PA",
+      "price": "$2,800/month",
+      "image": "https://example.com/images/condo2.jpg"
+    }
+  ]
+  

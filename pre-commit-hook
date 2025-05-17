@@ -1,0 +1,65 @@
+#!/bin/sh
+
+# A pre-commit hook for Mock-Dwelzo project
+# Save as .git/hooks/pre-commit and make executable: chmod +x .git/hooks/pre-commit
+
+echo "Running pre-commit checks for Mock-Dwelzo..."
+
+# Check Python files
+echo "Checking Python files..."
+PYTHON_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+if [ -n "$PYTHON_FILES" ]; then
+    # Run Black formatter
+    if command -v black >/dev/null 2>&1; then
+        echo "Running Black formatter..."
+        black $PYTHON_FILES || { echo "Black formatter failed. Aborting commit."; exit 1; }
+    else
+        echo "Black not installed. Skipping formatting."
+    fi
+    
+    # Run Pylint
+    if command -v pylint >/dev/null 2>&1; then
+        echo "Running Pylint..."
+        pylint $PYTHON_FILES || { echo "Pylint checks failed. Fix issues before committing."; exit 1; }
+    else
+        echo "Pylint not installed. Skipping linting."
+    fi
+fi
+
+# Check TypeScript/JavaScript files
+echo "Checking TypeScript/JavaScript files..."
+TS_JS_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(ts|tsx|js|jsx)$')
+if [ -n "$TS_JS_FILES" ]; then
+    # Run ESLint
+    if command -v eslint >/dev/null 2>&1; then
+        echo "Running ESLint..."
+        cd FRONTEND/frontend-app && npx eslint $TS_JS_FILES || { echo "ESLint checks failed. Fix issues before committing."; exit 1; }
+    else
+        echo "ESLint not installed. Skipping linting."
+    fi
+    
+    # Run Prettier
+    if command -v prettier >/dev/null 2>&1; then
+        echo "Running Prettier..."
+        cd FRONTEND/frontend-app && npx prettier --write $TS_JS_FILES || { echo "Prettier failed. Aborting commit."; exit 1; }
+        git add $TS_JS_FILES
+    else
+        echo "Prettier not installed. Skipping formatting."
+    fi
+fi
+
+# Check for sensitive information
+echo "Checking for sensitive information..."
+git diff --cached --name-only --diff-filter=ACM | xargs grep -l "API_KEY\|SECRET\|PASSWORD\|TOKEN" > /dev/null
+if [ $? -eq 0 ]; then
+    echo "WARNING: Possible sensitive information detected in commit."
+    echo "Please review your changes and remove any API keys, tokens, or passwords."
+    read -p "Do you want to continue with the commit? (y/n) " -n 1 -r
+    echo
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        exit 1
+    fi
+fi
+
+echo "Pre-commit checks completed successfully."
+exit 0

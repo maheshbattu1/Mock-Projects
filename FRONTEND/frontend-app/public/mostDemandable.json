@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "title": "Modern Apartment in Downtown",
+      "location": "New York, NY",
+      "price": "$2,500/month",
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBhcnRtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "title": "Cozy Studio near Central Park",
+      "location": "New York, NY",
+      "price": "$1,800/month",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },    {
+      "id": 3,
+      "title": "Spacious Villa with Garden",
+      "location": "Los Angeles, CA",
+      "price": "$4,500/month",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 4,
+      "title": "Luxury Condo with Sea View",
+      "location": "Miami, FL",
+      "price": "$3,200/month",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 5,
+      "title": "Affordable 1BHK Apartment",
+      "location": "Chicago, IL",
+      "price": "$1,200/month",
+      "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },    {
+      "id": 6,
+      "title": "Penthouse in Financial District",
+      "location": "San Francisco, CA",
+      "price": "$5,800/month",
+      "image": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVudGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 7,
+      "title": "Suburban Family Home",
+      "location": "Dallas, TX",
+      "price": "$2,000/month",
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG91c2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 8,
+      "title": "Beach House with Private Pool",
+      "location": "San Diego, CA",
+      "price": "$4,900/month",
+      "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2UlMjB3aXRoJTIwcG9vbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },    {
+      "id": 9,
+      "title": "Loft in Arts District",
+      "location": "Austin, TX",
+      "price": "$2,600/month",
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9mdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 10,
+      "title": "Downtown Studio Apartment",
+      "location": "Seattle, WA",
+      "price": "$1,950/month",
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZGlvJTIwYXBhcnRtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },    {
+      "id": 11,
+      "title": "Elegant Bungalow with Backyard",
+      "location": "Portland, OR",
+      "price": "$2,300/month",
+      "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVuZ2Fsb3d8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 12,
+      "title": "Modern Townhouse",
+      "location": "Denver, CO",
+      "price": "$2,700/month",
+      "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG93bmhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },    {
+      "id": 13,
+      "title": "High-rise Apartment with City View",
+      "location": "Atlanta, GA",
+      "price": "$3,100/month",
+      "image": "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGlnaCUyMHJpc2UlMjBhcGFydG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 14,
+      "title": "Farmhouse in Countryside",
+      "location": "Nashville, TN",
+      "price": "$1,700/month",
+      "image": "https://images.unsplash.com/photo-1593604572577-1c6c44fa2f9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmFybWhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },    {
+      "id": 15,
+      "title": "Classic Colonial Home",
+      "location": "Boston, MA",
+      "price": "$3,000/month",
+      "image": "https://images.unsplash.com/photo-1599427303058-f04cbcf4756f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb25pYWwlMjBob21lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 16,
+      "title": "Duplex Near University",
+      "location": "Ann Arbor, MI",
+      "price": "$1,900/month",
+      "image": "https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGR1cGxleHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },    {
+      "id": 17,
+      "title": "Lakeview Apartment",
+      "location": "Minneapolis, MN",
+      "price": "$2,400/month",
+      "image": "https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFrZXZpZXclMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 18,
+      "title": "Rustic Cabin Retreat",
+      "location": "Asheville, NC",
+      "price": "$1,600/month",
+      "image": "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhYmlufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    },    {
+      "id": 19,
+      "title": "Contemporary Flat in Tech Park",
+      "location": "San Jose, CA",
+      "price": "$3,300/month",
+      "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmxhdCUyMGFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 20,
+      "title": "City Center Condo",
+      "location": "Philadelphia, PA",
+      "price": "$2,800/month",
+      "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uZG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    }
+]
